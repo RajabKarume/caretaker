@@ -1,0 +1,19 @@
+.my-button {
+    all: unset;
+    background-image: url("https://i.ibb.co/z4XLbZS/blob-scene-haikei.png");
+    min-height: 3rem;
+    min-width: 10rem;
+    font-size: 20px;
+    color: #001220;
+    font-weight: 1000;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.my-button:hover{
+    outline: 1px solid;
+}
