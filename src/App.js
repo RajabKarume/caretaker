@@ -1,10 +1,10 @@
 import './App.css';
-import Button from './libs/features/button/Button';
+import SignUp from './libs/pages/login/SignUp/Signup';
 
 function App() {
   return (
     <div>
-      <Button buttonText={"my button"} />
+      <SignUp />
     </div>
   );
 }
