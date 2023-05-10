@@ -1,0 +1,12 @@
+.loginpage-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://media-cloud.corcoranlabs.com/ListingFullAPI/RealogyMLS/CT:170545017/3689618d860de1e6373eede7b6cec363");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
