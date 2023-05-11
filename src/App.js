@@ -1,10 +1,10 @@
 import './App.css';
-import Table from './libs/features/table/Table';
+import Navbar from './libs/elements/navbar/Navbar';
 
 function App() {
   return (
     <div>
-      <Table />
+      <Navbar />
     </div>
   );
 }

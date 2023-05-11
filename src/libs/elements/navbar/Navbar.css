@@ -1,0 +1,22 @@
+.navbar-div{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: #FBAE3C;
+
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.span-div{
+    margin-right: 0;
+    position: absolute;
+    right: 3%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
