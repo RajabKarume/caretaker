@@ -1,10 +1,10 @@
 import './App.css';
-import Sidebar from './libs/pages/homepage/sidebar/Sidebar';
+import Card from './libs/features/cards/Card';
 
 function App() {
   return (
     <div>
-      <Sidebar />
+      <Card />
     </div>
   );
 }
