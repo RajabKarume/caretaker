@@ -1,10 +1,10 @@
 import './App.css';
-import LoginPage from './libs/pages/login/LoginPage';
+import Sidebar from './libs/pages/homepage/sidebar/Sidebar';
 
 function App() {
   return (
     <div>
-      <LoginPage />
+      <Sidebar />
     </div>
   );
 }
