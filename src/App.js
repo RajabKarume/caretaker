@@ -1,10 +1,10 @@
 import './App.css';
-import Card from './libs/features/cards/Card';
+import Table from './libs/features/table/Table';
 
 function App() {
   return (
     <div>
-      <Card />
+      <Table />
     </div>
   );
 }
