@@ -13,10 +13,11 @@
 .icon-div{
     display: flex;
     align-items: center;
-    padding-top: 10%;
-    gap: 20% ;
+    gap: 5% ;
     width: 100% ;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-right: 0;
 }
 img{
     height: 35px;
@@ -26,4 +27,5 @@ img{
 .icon-div:hover{
     background-color: #00182b;
     cursor: pointer;
+    width: 90%;
 }

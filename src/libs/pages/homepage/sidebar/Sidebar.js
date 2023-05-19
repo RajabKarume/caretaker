@@ -1,5 +1,7 @@
 import React from "react";
 import './Sidebar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBuilding, faUsers } from '@fortawesome/free-solid-svg-icons'
 
 function Sidebar() {
     
@@ -9,11 +11,11 @@ function Sidebar() {
                 <h1>Caretaker</h1>
             </div>
             <div className="icon-div">
-                <img src="https://i.ibb.co/5KZcTkn/home.png" alt="properties icon" />
+                 <FontAwesomeIcon icon={faBuilding} />
                 <h4>Properties</h4>
             </div>
             <div className="icon-div">
-                <img src="https://i.ibb.co/0jNF7v2/people.png" alt="tenats icon" />
+                <FontAwesomeIcon icon={faUsers} />
                 <h4>Tenants</h4>
             </div>
 
