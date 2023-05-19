@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './libs/elements/navbar/Navbar';
+import LoginPage from './libs/pages/login/LoginPage';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <LoginPage />
     </div>
   );
 }

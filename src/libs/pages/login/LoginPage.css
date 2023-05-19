@@ -10,3 +10,45 @@
     background-size: cover;
 
 }
+.auth-div{
+        width: 30rem;
+        height: 45rem;
+        gap: 10%;
+        border-radius: 30px;
+        background-color: #ffffff;
+        box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+        5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.auth-list{ 
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 5%;
+}
+
+.auth-list li{ 
+    cursor: pointer;
+    width: auto;
+    list-style: none;
+    position: relative;
+    font-size: large;
+}
+.auth-list li::before{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #FBAE3C;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.5s;
+}
+.auth-list li:hover:before{
+    width: 100%;
+}
+.loginpage-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

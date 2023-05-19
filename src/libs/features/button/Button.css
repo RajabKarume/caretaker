@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .my-button:hover{
     outline: 1px solid;

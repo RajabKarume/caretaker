@@ -12,11 +12,11 @@ function SignUp(){
             <div className="form-div">
                 <form>
                     <h3>Email Adress</h3>
-                    <input />
+                    <input type="text" placeholder="email@website.com" />
                     <h3>UserName</h3>
-                    <input />
+                    <input type="text" placeholder="John Doe" />
                     <h3>Password</h3>
-                    <input />
+                    <input type="password" placeholder="************"/>
                     <Button buttonText={"Signup"} />
                 </form>
             </div>
