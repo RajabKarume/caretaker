@@ -15,7 +15,7 @@ function LoginPage(){
                     <li onClick={()=>setClick(false)}> SignUp</li>
                 </ul>
                 <div className="loginpage-display">
-                    {click? <SignIn /> : <SignUp />}
+                    {click? <SignIn /> : <SignUp setClick={setClick}/>}
                 </div>
             </div>
 
